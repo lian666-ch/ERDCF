@@ -13,14 +13,14 @@ def deconv_layer(x, factor):
 def ERDCF ():
 
     inputs = Input(shape=(None,None, 3))
-    x = inputs  #
+    x = inputs  
     x = Conv2D(64, (7, 7), strides=(2, 2), padding='same', name='conv1')(x)
-    x = BatchNormalization(axis=-1, name='bn_conv1')(x)#256
+    x = BatchNormalization(axis=-1, name='bn_conv1')(x)
     x = Activation('relu', name='act1')(x)
     x = MaxPooling2D((3, 3), strides=(2, 2), padding='same', name='block2_pool')(x)
 
     # Block 1
-    x1_conv1 = conv_block(x, (64, 64), stage=1, block='a', strides=(1, 1))#64
+    x1_conv1 = conv_block(x, (64, 64), stage=1, block='a', strides=(1, 1))
     x1_conv1_out = Conv2D(21, (1, 1),  padding='same', name='block1_conv_o1')(x1_conv1)
     x1_conv2 = identity_block(x1_conv1, (64, 64), stage=1, block='b')
     x1_conv2_out = Conv2D(21, (1, 1),  padding='same', name='block1_conv_o2')(x1_conv2)
