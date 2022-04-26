@@ -37,3 +37,5 @@ Run eval.py
 
 We provid a pretrained model on the public crack detection dataset. 
 ./pre/[ERDCF_crack.h5](https://drive.google.com/file/d/1h2F6oRANYT6vWGhS_7xCmvwSkEutms4O/view?usp=sharing)
+
+We have uploaded the prediction in ./pre/ERDCF/crack/
