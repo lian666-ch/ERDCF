@@ -40,5 +40,5 @@ We provid a pretrained model on the public crack detection dataset.
 
 We have uploaded the prediction in ./pre/ERDCF.zip.
 
-
-**Solar cell data is temporarily unpublic and will be released in the future.**
+**If you have any questions, please contact me**
+**Solar cell data is temporarily unpublic and will be released in the future. **
