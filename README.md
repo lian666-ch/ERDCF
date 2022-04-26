@@ -3,7 +3,7 @@ A keras implementation of ERDCF: Efficient and Refined Deep Convolutional Featur
 
 ## 1. Running environment
 Training: 
-python = 3.5.6/3.6,
+python = 3.5/3.6,
 keras = 2.2.4,
 tensorflow-gpu = 1.9.0,
 cuda = 9.0,
