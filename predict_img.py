@@ -32,7 +32,7 @@ def get_batch():
 
 def test():
     image_train = get_batch()
-    model = load_model("./save_model/ERDCF/ERDCF_ep102_F_score0.90011.h5"
+    model = load_model("./save_model/ERDCF/ERDCF_ep140.h5"
                        , custom_objects={'dice_loss': dice_loss, 'F_score': F_score})
     layer_model = Model(inputs=model.input, outputs=model.get_layer('ofuse').output)
     model.summary()
