@@ -58,8 +58,6 @@ def test():
             os.makedirs(path)
         if not os.path.exists(path + "gt/"):
             os.makedirs(path + "gt/")
-        if not os.path.exists(path + "img/"):
-            os.makedirs(path + "img/")
         if not os.path.exists(path + "crack/"):
             os.makedirs(path + "crack/")
 
@@ -71,9 +69,6 @@ def test():
         y_train2 = y_train
         name_pre_gt = path + "gt/" + imgname + '.png'  #
         cv2.imwrite(name_pre_gt, y_train2)
-
-        name_img = path + "img/" + imgname + '.png'  #
-        cv2.imwrite(name_img, im)
 
 if __name__ == "__main__":
     test()
