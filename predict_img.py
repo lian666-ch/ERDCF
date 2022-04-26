@@ -22,7 +22,7 @@ def split_pair_names(filenames, base_dir):
     return filenames
 
 def get_batch():
-    train_file = os.path.join('./dataset/DeepCrack/', 'test.txt')
+    train_file = os.path.join('./dataset/', 'test.txt')
     train_data_dir = './dataset/DeepCrack/'
     training_pairs = read_file_list(train_file)
     samples = split_pair_names(training_pairs, train_data_dir)
