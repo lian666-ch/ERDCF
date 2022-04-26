@@ -18,7 +18,7 @@ Download the public crack detection dataset is available [here](https://github.c
 We have create the train.txt and test.txt.
 
 To create crack dataset, please follow:
-1. extract DeepCrack.zip  to _/path/to/dataset/DeepCrack,
+1. extract DeepCrack.zip  to ./dataset/DeepCrack,
 
 ## 3. Train
 Run train.py
