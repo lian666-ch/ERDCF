@@ -15,6 +15,17 @@ opencv-python = 4.4.0.42
 ## 2. Datasets
 Download the public crack detection dataset is available [here](https://github.com/yhlleo/DeepCrack/tree/master/dataset/)
 
+DeepCrack:
+@article{liu2019deepcrack,
+  title={DeepCrack: A deep hierarchical feature learning architecture for crack segmentation},
+  author={Liu, Yahui and Yao, Jian and Lu, Xiaohu and Xie, Renping and Li, Li},
+  journal={Neurocomputing},
+  volume={338},
+  pages={139--153},
+  year={2019},
+  publisher={Elsevier}
+}.
+
 We have create the train.txt and test.txt.
 
 To create crack dataset, please follow:
