@@ -1,4 +1,4 @@
-# ERDCF
+# 
 A keras implementation.
 
 ## 1. Running environment
