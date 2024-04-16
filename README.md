@@ -1,5 +1,23 @@
-# 
+# Efficient and Refined Deep Convolutional Features Network for the Crack Segmentation of Solar Cell Electroluminescence Images
 A keras implementation.
+
+# Citations
+
+If you are using the code/model/data provided here in a publication, please consider citing:
+
+   ```
+ @article{wang2022efficient,
+  title={Efficient and refined deep convolutional features network for the crack segmentation of solar cell electroluminescence images},
+  author={Wang, Chuhan and Chen, Haiyong and Zhao, Shenshen and Rahman, Muhammad Rameez Ur},
+  journal={IEEE Transactions on Semiconductor Manufacturing},
+  volume={35},
+  number={4},
+  pages={610--619},
+  year={2022},
+  publisher={IEEE}
+}
+
+```
 
 ## 1. Running environment
 Training: 
